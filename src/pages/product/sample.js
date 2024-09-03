@@ -56,13 +56,13 @@ const ProductPage = (props) => {
                 <CurrencyFormatter appendZero amount={sampleProduct.price} />
               </div>
 
-              <div>
+              {/* <div>
                 <SwatchList
                   swatchList={sampleProduct.colorOptions}
                   activeSwatch={activeSwatch}
                   setActiveSwatch={setActiveSwatch}
                 />
-              </div>
+              </div> */}
 
               <div className={styles.sizeContainer}>
                 <SizeList
